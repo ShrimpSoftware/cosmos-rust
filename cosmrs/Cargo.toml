@@ -15,11 +15,11 @@ rust-version = "1.72"
 cosmos-sdk-proto = { version = "0.21", default-features = false, path = "../cosmos-sdk-proto" }
 ecdsa = "0.16"
 eyre = "0.6"
-k256 = { version = "0.13", default-features = false, features = ["ecdsa", "sha256"] }
+k256 = { version = "0.14.0-pre", default-features = false, features = ["ecdsa", "sha256"] }
 rand_core = { version = "0.6", default-features = false }
 serde = { version = "1", features = ["serde_derive"] }
 serde_json = "1"
-signature = { version = "2", features = ["std"] }
+signature = { version = "2.3.0-pre.3", features = ["std"] }
 subtle-encoding = { version = "0.5", features = ["bech32-preview"] }
 tendermint = { version = "0.35", features = ["secp256k1"] }
 thiserror = "1"
